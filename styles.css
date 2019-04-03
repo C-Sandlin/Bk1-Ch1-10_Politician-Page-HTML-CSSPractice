@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#efefef;
+}
+
+header {
+    background-color: #2a446d;
+    border-bottom: 2px solid #9b1e11;
+    display: inline-flex;
+    width: 100%;
+}
+
+header img {
+    justify-content: flex-start;
+}
+
+.topNavLinks {
+    justify-content: flex-start;
+} 
+
+header nav a {
+    display: inline-flex;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 35px;
+}
+
+
+.topNavLinks {
+    margin-bottom: -100px;
+}
+
+.header_logo {
+    height: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+h1, h2, h3, h4, h6, p, a {
+    margin-left: 40px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #2a446d;
+    margin-left: 0px; 
+    display: flex;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    height: 30px;
+    margin-left: 35px;
+}
+
+.bottomNav h3, .bottomNav a  {
+    display: inline;
+}
+
+.main_art_sec_img_01 {
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.committees {
+}
+
+.committees a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    list-style-type: none;
+}
+
+footer nav a {
+    display: inline-flex;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 35px;
+}
+
+footer div, footer nav {
+    margin-top: 30px;
+}
